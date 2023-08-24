@@ -1,5 +1,6 @@
 # AAEA_Visualization_Challenge_Food_System_Strength
-They are the submissions for the Local Food Economics Data Visualization Challenge, hold by AAEA and USDA AMS, 2023
+They are the submissions for the Local Food Economics Data Visualization Challenge, hold by AAEA and USDA AMS, 2023.
+
 This folder includes: 
 1. Static Data Visualization (I3_data_visualization.pdf)
 2. Code File (I3_code_file.Rmd)
