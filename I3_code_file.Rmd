@@ -923,8 +923,8 @@ usdata <- left_join(us, data_biscale, by = "fips")
 usmap <- ggplot() +
   geom_sf(data = usdata, mapping = aes(fill = bi_class), color = "black", size = 0.2, show.legend = F) +
   bi_scale_fill(pal = "BlueOr", dim = 4) +
-  bi_theme(base_size = 25) +
-  ggtitle("Food System Strength \n in the U.S.")
+  bi_theme(bg_color = "transparent", base_size = 20) +
+  ggtitle("Food System Strength in the U.S.")
 
 legend <- bi_legend(pal = "BlueOr",
                     dim = 4,
@@ -971,10 +971,20 @@ arcmap <- ggplot() +
   geom_sf(data=arcstates, fill = "grey95", color = "black", show.legend = F) +
   geom_sf(data = arcdata, mapping = aes(fill = bi_class), color = "black", size = 0.2, show.legend = F) +
   bi_scale_fill(pal = "BlueOr", dim = 4) +
-  bi_theme(base_size = 25) +
+  bi_theme(bg_color = "transparent", base_size = 20) +
   ggtitle("Food System Strength \n in Appalachia")
 
+legend <- bi_legend(pal = "BlueOr",
+                    dim = 4,
+                    xlab = "      Prod. & Proc.",
+                    ylab = "      Dist. & Cons.",
+                    size = 16,
+                    pad_width = .2,
+                    pad_color = "black") + 
+  bi_theme(bg_color = "transparent",
+           base_size = 10)
+
 ggdraw() +
-  draw_plot(arcmap, 0, 0, 1.1, 1) +
-  draw_plot(legend, 0, 0.65, 0.20, 0.20)
+  draw_plot(arcmap, 0, 0, 0.9, 1) +
+  draw_plot(legend, 0.65, 0.12, 0.2, 0.2)
 ```
