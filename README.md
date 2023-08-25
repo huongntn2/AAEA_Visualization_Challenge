@@ -8,12 +8,12 @@ They are the submissions for the Local Food Economics Data Visualization Challen
    2.1. County Population
    2.2. Feeding America
    2.3. Food Stamps
-### Deliverables:
+### Deliverables:  
 1. Static Data Visualization (I3_data_visualization.pdf)
 2. Index Description One-Pager (I3_one_pager_index_description.pdf)
-3. Presentation (I3_presentation.pdf)
+4. Presentation (I3_presentation.pdf)
 
-LICENSE
+### LICENSE
 
 ## Team Members:
 - Ivy Mackereth(WVU)
