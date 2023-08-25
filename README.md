@@ -6,6 +6,7 @@ They are the submissions for the Local Food Economics Data Visualization Challen
 2. Code and Supplement Data Folder (Code)
 3. Index Description One-Pager (I3_one_pager_index_description.pdf)
 4. Presentation (I3_presentation.pdf)
+5. LICENSE
 
 ## Team Members:
 - Ivy Mackereth(WVU)
