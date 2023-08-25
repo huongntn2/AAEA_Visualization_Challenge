@@ -3,11 +3,11 @@ They are the submissions for the Local Food Economics Data Visualization Challen
 
 ## This folder includes: 
 ### Code and Supplement Data:
-#### 1. Code file (I3_code_file.Rmd)
-#### 2. Supplement Data
-   ##### 2.1. County Population
-   ##### 2.2. Feeding America
-   ##### 2.3. Food Stamps
+ 1. Code file (I3_code_file.Rmd)
+ 2. Supplement Data \
+   2.1. County Population \
+   2.2. Feeding America \
+   2.3. Food Stamps
 ### Deliverables:  
 1. Static Data Visualization (I3_data_visualization.pdf)
 2. Index Description One-Pager (I3_one_pager_index_description.pdf)
